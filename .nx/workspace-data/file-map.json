@@ -1,0 +1,294 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.4.0",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "4760192166004576022"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "6962954904573951472"
+      },
+      {
+        "file": "README.md",
+        "hash": "12526486071163744699"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10973461197369768158"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3838246982722539747"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12117859709517040160"
+      },
+      {
+        "file": "package.json",
+        "hash": "5865171977308932669"
+      }
+    ],
+    "projectFileMap": {
+      "backend-api": [
+        {
+          "file": "apps/backend-api/.env.example",
+          "hash": "8828931749886304798"
+        },
+        {
+          "file": "apps/backend-api/.eslintrc.js",
+          "hash": "7461846271827386206"
+        },
+        {
+          "file": "apps/backend-api/.gitignore",
+          "hash": "12634402967133909834"
+        },
+        {
+          "file": "apps/backend-api/.prettierrc",
+          "hash": "4808572120966128913"
+        },
+        {
+          "file": "apps/backend-api/README.md",
+          "hash": "17910034448946616894"
+        },
+        {
+          "file": "apps/backend-api/drizzle.config.ts",
+          "hash": "2115598879480700517",
+          "deps": [
+            "npm:drizzle-kit",
+            "npm:dotenv@17.2.1"
+          ]
+        },
+        {
+          "file": "apps/backend-api/nest-cli.json",
+          "hash": "789240945379598733"
+        },
+        {
+          "file": "apps/backend-api/package.json",
+          "hash": "16817863081261367782",
+          "deps": [
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/pg",
+            "npm:@types/supertest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:drizzle-kit",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support@0.5.21",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:typescript@5.9.2",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:dotenv@17.2.1",
+            "npm:drizzle-orm",
+            "npm:pg",
+            "npm:reflect-metadata",
+            "npm:rxjs@7.8.2"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/app.controller.spec.ts",
+          "hash": "2727664763654384995",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/app.controller.ts",
+          "hash": "4552329938751326480",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/app.module.ts",
+          "hash": "11673476679848632172",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/app.service.ts",
+          "hash": "16892833931858030153",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/0000_careless_mindworm.sql",
+          "hash": "18161729857539880331"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/0000_snapshot.json",
+          "hash": "9623967699383286336"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/_journal.json",
+          "hash": "7845577537940336847"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/relations.ts",
+          "hash": "11251447355217095273",
+          "deps": [
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/schema.ts",
+          "hash": "7634004059092184816",
+          "deps": [
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/main.ts",
+          "hash": "6783086878492621953",
+          "deps": [
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/backend-api/test/app.e2e-spec.ts",
+          "hash": "15142680097789702029",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/backend-api/test/jest-e2e.json",
+          "hash": "7570273541430074424"
+        },
+        {
+          "file": "apps/backend-api/tsconfig.build.json",
+          "hash": "276845246908739715"
+        },
+        {
+          "file": "apps/backend-api/tsconfig.json",
+          "hash": "1876265833229380624"
+        }
+      ],
+      "frontend-web": [
+        {
+          "file": "apps/frontend-web/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "apps/frontend-web/README.md",
+          "hash": "230519711145761115"
+        },
+        {
+          "file": "apps/frontend-web/eslint.config.js",
+          "hash": "142212017292357276",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:globals@16.3.0",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:typescript-eslint",
+            "npm:eslint"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "apps/frontend-web/package.json",
+          "hash": "10918191875013384719",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:globals@16.3.0",
+            "npm:typescript@5.8.3",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "apps/frontend-web/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "apps/frontend-web/src/App.tsx",
+          "hash": "9561001225065465909",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "apps/frontend-web/src/index.css",
+          "hash": "13504153635654440336"
+        },
+        {
+          "file": "apps/frontend-web/src/main.tsx",
+          "hash": "11038211546439381838",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/frontend-web/tsconfig.app.json",
+          "hash": "17915403376949929233"
+        },
+        {
+          "file": "apps/frontend-web/tsconfig.json",
+          "hash": "2365188958523842680"
+        },
+        {
+          "file": "apps/frontend-web/tsconfig.node.json",
+          "hash": "12526670948656573966"
+        },
+        {
+          "file": "apps/frontend-web/vite.config.ts",
+          "hash": "16225914092815047172",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nx/js": "^21.4.0",
+    "eslint": "^9.33.0",
+    "nx": "21.4.0"
+  }
+}
