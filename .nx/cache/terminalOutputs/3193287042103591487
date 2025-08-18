@@ -1,0 +1,1745 @@
+
+> backend-api@0.0.1 start:dev /home/xande/jobs/full-cycle/merlix-project/apps/backend-api
+> nest start --watch
+
+[2J[3J[H[[90m10:27:09 AM[0m] Starting compilation in watch mode...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:27:11 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:45:23 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:45:23 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:45:25 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:45:25 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:45:59 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:45:59 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:46:00 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:46:00 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:46:15 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:46:15 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:46:16 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:46:16 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:46:56 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:46:56 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:46:58 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:46:58 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:47:25 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:47:25 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:48:38 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:48:38 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:49:21 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:49:21 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:49:40 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:49:41 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:50:20 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:50:21 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:50:37 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:50:37 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:51:08 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:51:08 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:51:15 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:51:15 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:51:37 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:51:37 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:51:41 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:51:41 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:51:45 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:51:45 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:54:20 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/migrations/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/migrations/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:54:20 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:55:43 AM[0m] File change detected. Starting incremental compilation...
+
+[91merror[0m[90m TS6053: [0mFile '/home/xande/jobs/full-cycle/merlix-project/apps/backend-api/src/database/migrations/relations.ts' not found.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+
+[91merror[0m[90m TS6053: [0mFile '/home/xande/jobs/full-cycle/merlix-project/apps/backend-api/src/database/migrations/schema.ts' not found.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+
+[[90m10:55:44 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:55:45 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:55:45 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:57:05 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:57:05 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:58:24 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m10:58:24 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:07:57 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m11:07:57 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:10:08 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m11:10:08 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:11:09 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m11:11:08 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:12:55 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m11:12:55 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:13:28 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m11:13:28 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:14:14 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m11:14:14 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:15:04 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/schema.ts[0m:[93m17[0m:[93m53[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m17[0m  messageContent: text("message_content").default('),
+[7m  [0m [91m                                                    [0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m ~~~~~~~~~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m  createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m19[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m  updatedAt: timestamp("updated_at", { mode: 'string' }).defaultNow(),
+[7m  [0m [91m          ~[0m
+
+[96msrc/database/schema/schema.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m20[0m });
+[7m  [0m [91m~[0m
+
+[[90m11:15:04 AM[0m] Found 5 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:15:14 AM[0m] File change detected. Starting incremental compilation...
+
+[91merror[0m[90m TS6053: [0mFile '/home/xande/jobs/full-cycle/merlix-project/apps/backend-api/src/database/schema/schema.ts' not found.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+
+[[90m11:15:14 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m11:15:15 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/database/schema/relations.ts[0m:[93m2[0m:[93m17[0m - [91merror[0m[90m TS2307: [0mCannot find module './schema' or its corresponding type declarations.
+
+[7m2[0m import { } from "./schema";
+[7m [0m [91m                ~~~~~~~~~~[0m
+
+[[90m11:15:16 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m11:15:21 AM[0m] File change detected. Starting incremental compilation...
+
+[91merror[0m[90m TS6053: [0mFile '/home/xande/jobs/full-cycle/merlix-project/apps/backend-api/src/database/schema/relations.ts' not found.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+
+[[90m11:15:21 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m11:15:22 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:15:22 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 72547  - [39m08/17/2025, 11:15:23 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:16:55 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:16:55 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 73997  - [39m08/17/2025, 11:16:55 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:18:09 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:18:10 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 75097  - [39m08/17/2025, 11:18:10 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:27:11 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:27:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +9ms[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 82665  - [39m08/17/2025, 11:27:11 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:27:50 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:27:50 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 83371  - [39m08/17/2025, 11:27:51 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:28:43 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:28:43 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 84103  - [39m08/17/2025, 11:28:42 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:28:53 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:28:53 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 84286  - [39m08/17/2025, 11:28:53 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:29:13 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:29:13 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 84564  - [39m08/17/2025, 11:29:13 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:31:05 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:31:05 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 86053  - [39m08/17/2025, 11:31:05 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:31:10 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:31:10 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 86174  - [39m08/17/2025, 11:31:11 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:34:26 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:34:27 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 88829  - [39m08/17/2025, 11:34:27 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:38:18 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:38:18 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 92659  - [39m08/17/2025, 11:38:18 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:39:00 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:39:00 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 93247  - [39m08/17/2025, 11:39:00 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:40:54 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:40:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 94994  - [39m08/17/2025, 11:40:54 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:41:29 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:41:29 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 95503  - [39m08/17/2025, 11:41:30 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:43:41 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:43:41 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 97422  - [39m08/17/2025, 11:43:42 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m11:48:54 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.controller.ts[0m:[93m1[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Controller, Get } from '@nestjs/common';
+[7m [0m [91m                                ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.module.ts[0m:[93m1[0m:[93m24[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Module } from '@nestjs/common';
+[7m [0m [91m                       ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.service.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Injectable } from '@nestjs/common';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Controller } from '@nestjs/common';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/auth/auth.module.ts[0m:[93m1[0m:[93m24[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Module } from '@nestjs/common';
+[7m [0m [91m                       ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/auth/auth.service.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Injectable } from '@nestjs/common';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/common/repositories/base.repository.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m2[0m import { Injectable, Inject } from '@nestjs/common';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/database/database.module.ts[0m:[93m1[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Module, Global } from '@nestjs/common';
+[7m [0m [91m                               ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/database/database.module.ts[0m:[93m2[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/config' or its corresponding type declarations.
+
+[7m2[0m import { ConfigService } from '@nestjs/config';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/users/repositories/user.repository.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Injectable } from '@nestjs/common';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/users/users.controller.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Controller } from '@nestjs/common';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/users/users.module.ts[0m:[93m1[0m:[93m24[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Module } from '@nestjs/common';
+[7m [0m [91m                       ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/users/users.service.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Injectable } from '@nestjs/common';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+
+[[90m11:48:55 AM[0m] Found 13 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:48:56 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:48:57 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 102334  - [39m08/17/2025, 11:48:57 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m11:50:51 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:50:53 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +13ms[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 104567  - [39m08/17/2025, 11:50:53 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+[2J[3J[H[[90m11:53:20 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m11:53:20 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 106954  - [39m08/17/2025, 11:53:21 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m12:26:38 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m12:26:39 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 122352  - [39m08/17/2025, 12:26:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m12:26:50 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m12:26:50 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 122614  - [39m08/17/2025, 12:26:50 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m12:27:18 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m12:27:18 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123007  - [39m08/17/2025, 12:27:18 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m12:32:05 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m12:32:05 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 127121  - [39m08/17/2025, 12:32:06 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m12:52:26 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m12:52:26 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 146183  - [39m08/17/2025, 12:52:27 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m1:36:25 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:36:25 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +9ms[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 180772  - [39m08/17/2025, 1:36:26 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m1:37:18 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/users/repositories/user.repository.ts[0m:[93m32[0m:[93m53[0m - [91merror[0m[90m TS2339: [0mProperty 'fullName' does not exist on type 'PgTableWithColumns<{ name: "users"; schema: undefined; columns: { userId: PgColumn<{ name: "user_id"; tableName: "users"; dataType: "number"; columnType: "PgSerial"; data: number; driverParam: number; notNull: true; hasDefault: true; ... 6 more ...; generated: undefined; }, {}, {}>; ... 5 more ...; updatedAt: PgColu...'.
+
+[7m32[0m         return await this.findWhere(like(usersTable.fullName, `%${pattern}%`));
+[7m  [0m [91m                                                    ~~~~~~~~[0m
+
+[[90m1:37:19 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m1:37:34 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:37:34 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 181889  - [39m08/17/2025, 1:37:35 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m1:44:47 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:44:47 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 188404  - [39m08/17/2025, 1:44:47 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m1:56:23 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:56:23 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 197486  - [39m08/17/2025, 1:56:23 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m1:57:06 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:57:06 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 198245  - [39m08/17/2025, 1:57:06 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m1:57:45 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:57:45 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 198800  - [39m08/17/2025, 1:57:46 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m1:58:07 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:58:07 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 199094  - [39m08/17/2025, 1:58:07 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m1:58:10 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:58:10 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 199193  - [39m08/17/2025, 1:58:11 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m1:58:32 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m1:58:32 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 199543  - [39m08/17/2025, 1:58:33 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m2:18:45 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:18:45 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 215943  - [39m08/17/2025, 2:18:45 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m2:21:35 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:21:35 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 218236  - [39m08/17/2025, 2:21:36 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m2:25:49 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:25:49 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 221578  - [39m08/17/2025, 2:25:49 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m2:31:08 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:31:08 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 225707  - [39m08/17/2025, 2:31:08 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[2J[3J[H[[90m2:33:03 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:33:04 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 227253  - [39m08/17/2025, 2:33:04 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 227253  - [39m08/17/2025, 2:33:04 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 3)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+[2J[3J[H[[90m2:55:54 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:55:54 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 243577  - [39m08/17/2025, 2:55:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 243577  - [39m08/17/2025, 2:55:54 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 3)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+[2J[3J[H[[90m3:00:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:00:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 247172  - [39m08/17/2025, 3:00:38 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 247172  - [39m08/17/2025, 3:00:38 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 3)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+[2J[3J[H[[90m3:02:13 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:02:13 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 248387  - [39m08/17/2025, 3:02:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 248387  - [39m08/17/2025, 3:02:14 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 3)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+[2J[3J[H[[90m3:02:28 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:02:28 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 248581  - [39m08/17/2025, 3:02:28 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 248581  - [39m08/17/2025, 3:02:28 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 3)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+[2J[3J[H[[90m3:02:58 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:02:58 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 249026  - [39m08/17/2025, 3:02:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 249026  - [39m08/17/2025, 3:02:59 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UsersService (?). Please make sure that the argument Object at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If Object is a provider, is it part of the current UsersModule?
+- If Object is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing Object */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 3)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+[2J[3J[H[[90m3:03:12 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:03:13 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 249259  - [39m08/17/2025, 3:03:13 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 249259  - [39m08/17/2025, 3:03:13 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UserRepository (?). Please make sure that the argument "DATABASE_CONNECTION" at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If "DATABASE_CONNECTION" is a provider, is it part of the current UsersModule?
+- If "DATABASE_CONNECTION" is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing "DATABASE_CONNECTION" */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UserRepository (?). Please make sure that the argument "DATABASE_CONNECTION" at index [0] is available in the UsersModule context.
+
+Potential solutions:
+- Is UsersModule a valid NestJS module?
+- If "DATABASE_CONNECTION" is a provider, is it part of the current UsersModule?
+- If "DATABASE_CONNECTION" is exported from a separate @Module, is that module imported within UsersModule?
+  @Module({
+    imports: [ /* the Module containing "DATABASE_CONNECTION" */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 4)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+^C

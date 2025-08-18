@@ -1,0 +1,136 @@
+
+> backend-api@0.0.1 start:dev /home/xande/jobs/full-cycle/merlix-project/apps/backend-api
+> nest start --watch
+
+[2J[3J[H[[90m7:57:55 AM[0m] Starting compilation in watch mode...
+
+[[90m7:57:58 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 1004715  - [39m08/18/2025, 7:57:59 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:57:59 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:57:59 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:57:59 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:57:59 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:57:59 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:57:59 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +39ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +28ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/active, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/search, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/activate, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/deactivate, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1004715  - [39m08/18/2025, 7:58:00 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B[2J[3J[H[[90m8:21:08 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:21:09 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +23ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +26ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/active, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/activate, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/deactivate, PATCH} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024002  - [39m08/18/2025, 8:21:09 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+[2J[3J[H[[90m8:21:13 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:21:13 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +21ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/active, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/search, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/activate, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/deactivate, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1024102  - [39m08/18/2025, 8:21:14 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m8:22:38 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:22:38 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +19ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +18ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/active, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/search, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/activate, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/deactivate, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025369  - [39m08/18/2025, 8:22:39 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+^[[B^[[B^[[B^[[B^[[B[2J[3J[H[[90m8:23:04 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:23:05 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +15ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/active, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/search, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/activate, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/deactivate, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 1025864  - [39m08/18/2025, 8:23:05 AM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32mApplication listening on port 3000[39m
+^[[B^[[B^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B[31m[Nest] 1025864  - [39m08/18/2025, 8:55:07 AM [31m  ERROR[39m [38;5;3m[ExceptionsHandler] [39mError: Password does not meet security requirements
+    at UsersService.create [90m(/home/xande/jobs/full-cycle/merlix-project/apps/backend-api/[39msrc/users/users.service.ts:67:19[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/router/router-execution-context.js:46:28
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/router/router-proxy.js:9:17
+^C

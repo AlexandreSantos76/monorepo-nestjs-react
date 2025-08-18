@@ -1,0 +1,40 @@
+
+> backend-api@0.0.1 start:dev /home/xande/jobs/full-cycle/merlix-project/apps/backend-api
+> nest start --watch
+
+[2J[3J[H[[90m3:07:08 PM[0m] Starting compilation in watch mode...
+
+[[90m3:07:10 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 251691  - [39m08/17/2025, 3:07:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 251691  - [39m08/17/2025, 3:07:11 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the DATABASE_CONNECTION (?). Please make sure that the argument ConfigService at index [0] is available in the DatabaseModule context.
+
+Potential solutions:
+- Is DatabaseModule a valid NestJS module?
+- If ConfigService is a provider, is it part of the current DatabaseModule?
+- If ConfigService is exported from a separate @Module, is that module imported within DatabaseModule?
+  @Module({
+    imports: [ /* the Module containing ConfigService */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the DATABASE_CONNECTION (?). Please make sure that the argument ConfigService at index [0] is available in the DatabaseModule context.
+
+Potential solutions:
+- Is DatabaseModule a valid NestJS module?
+- If ConfigService is a provider, is it part of the current DatabaseModule?
+- If ConfigService is exported from a separate @Module, is that module imported within DatabaseModule?
+  @Module({
+    imports: [ /* the Module containing ConfigService */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at async Injector.resolveComponentInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at async resolveParam (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 3)
+    at async InstanceLoader.createInstancesOfProviders (/home/xande/jobs/full-cycle/merlix-project/node_modules/.pnpm/@nestjs+core@10.4.20_@nestjs+common@10.4.20_class-transformer@0.5.1_class-validator@0.14.2_re_k7huez7iho2aizymvhasmfsdim/node_modules/@nestjs/core/injector/instance-loader.js:55:9)
+^[[A^[[A^[[A^[[A^[[A^C

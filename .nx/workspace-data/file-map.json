@@ -6,8 +6,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".github/instructions/nx.instructions.md",
-        "hash": "4760192166004576022"
+        "file": "pnpm-lock.yaml",
+        "hash": "14113834218658402328"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3838246982722539747"
       },
       {
         "file": "pnpm-workspace.yaml",
@@ -22,12 +26,8 @@
         "hash": "10973461197369768158"
       },
       {
-        "file": "nx.json",
-        "hash": "3838246982722539747"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "12117859709517040160"
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "4760192166004576022"
       },
       {
         "file": "package.json",
@@ -35,160 +35,6 @@
       }
     ],
     "projectFileMap": {
-      "backend-api": [
-        {
-          "file": "apps/backend-api/.env.example",
-          "hash": "8828931749886304798"
-        },
-        {
-          "file": "apps/backend-api/.eslintrc.js",
-          "hash": "7461846271827386206"
-        },
-        {
-          "file": "apps/backend-api/.gitignore",
-          "hash": "12634402967133909834"
-        },
-        {
-          "file": "apps/backend-api/.prettierrc",
-          "hash": "4808572120966128913"
-        },
-        {
-          "file": "apps/backend-api/README.md",
-          "hash": "17910034448946616894"
-        },
-        {
-          "file": "apps/backend-api/drizzle.config.ts",
-          "hash": "2115598879480700517",
-          "deps": [
-            "npm:drizzle-kit",
-            "npm:dotenv@17.2.1"
-          ]
-        },
-        {
-          "file": "apps/backend-api/nest-cli.json",
-          "hash": "789240945379598733"
-        },
-        {
-          "file": "apps/backend-api/package.json",
-          "hash": "16817863081261367782",
-          "deps": [
-            "npm:@nestjs/cli",
-            "npm:@nestjs/schematics",
-            "npm:@nestjs/testing",
-            "npm:@types/express",
-            "npm:@types/jest",
-            "npm:@types/node",
-            "npm:@types/pg",
-            "npm:@types/supertest",
-            "npm:@typescript-eslint/eslint-plugin",
-            "npm:@typescript-eslint/parser",
-            "npm:drizzle-kit",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-prettier",
-            "npm:jest",
-            "npm:prettier",
-            "npm:source-map-support@0.5.21",
-            "npm:supertest",
-            "npm:ts-jest",
-            "npm:ts-loader",
-            "npm:ts-node",
-            "npm:tsconfig-paths",
-            "npm:typescript@5.9.2",
-            "npm:@nestjs/common",
-            "npm:@nestjs/config",
-            "npm:@nestjs/core",
-            "npm:@nestjs/platform-express",
-            "npm:dotenv@17.2.1",
-            "npm:drizzle-orm",
-            "npm:pg",
-            "npm:reflect-metadata",
-            "npm:rxjs@7.8.2"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/app.controller.spec.ts",
-          "hash": "2727664763654384995",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/app.controller.ts",
-          "hash": "4552329938751326480",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/app.module.ts",
-          "hash": "11673476679848632172",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/app.service.ts",
-          "hash": "16892833931858030153",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/database/migrations/0000_careless_mindworm.sql",
-          "hash": "18161729857539880331"
-        },
-        {
-          "file": "apps/backend-api/src/database/migrations/meta/0000_snapshot.json",
-          "hash": "9623967699383286336"
-        },
-        {
-          "file": "apps/backend-api/src/database/migrations/meta/_journal.json",
-          "hash": "7845577537940336847"
-        },
-        {
-          "file": "apps/backend-api/src/database/migrations/relations.ts",
-          "hash": "11251447355217095273",
-          "deps": [
-            "npm:drizzle-orm"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/database/migrations/schema.ts",
-          "hash": "7634004059092184816",
-          "deps": [
-            "npm:drizzle-orm"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/main.ts",
-          "hash": "6783086878492621953",
-          "deps": [
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/backend-api/test/app.e2e-spec.ts",
-          "hash": "15142680097789702029",
-          "deps": [
-            "npm:@nestjs/testing",
-            "npm:@nestjs/common",
-            "npm:supertest"
-          ]
-        },
-        {
-          "file": "apps/backend-api/test/jest-e2e.json",
-          "hash": "7570273541430074424"
-        },
-        {
-          "file": "apps/backend-api/tsconfig.build.json",
-          "hash": "276845246908739715"
-        },
-        {
-          "file": "apps/backend-api/tsconfig.json",
-          "hash": "1876265833229380624"
-        }
-      ],
       "frontend-web": [
         {
           "file": "apps/frontend-web/.gitignore",
@@ -287,6 +133,493 @@
             "npm:vite",
             "npm:@vitejs/plugin-react"
           ]
+        }
+      ],
+      "backend-api": [
+        {
+          "file": "apps/backend-api/.env.example",
+          "hash": "14940618659904240893"
+        },
+        {
+          "file": "apps/backend-api/.eslintrc.js",
+          "hash": "7461846271827386206"
+        },
+        {
+          "file": "apps/backend-api/.gitignore",
+          "hash": "12634402967133909834"
+        },
+        {
+          "file": "apps/backend-api/.prettierrc",
+          "hash": "4808572120966128913"
+        },
+        {
+          "file": "apps/backend-api/README.md",
+          "hash": "17910034448946616894"
+        },
+        {
+          "file": "apps/backend-api/drizzle.config.ts",
+          "hash": "2115598879480700517",
+          "deps": [
+            "npm:drizzle-kit",
+            "npm:dotenv@17.2.1"
+          ]
+        },
+        {
+          "file": "apps/backend-api/nest-cli.json",
+          "hash": "789240945379598733"
+        },
+        {
+          "file": "apps/backend-api/package.json",
+          "hash": "12277884209024038847",
+          "deps": [
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/nodemailer",
+            "npm:@types/pg",
+            "npm:@types/supertest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:drizzle-kit",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support@0.5.21",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:typescript@5.9.2",
+            "npm:@aws-sdk/client-ses",
+            "npm:@nestjs/axios",
+            "npm:@nestjs/bull",
+            "npm:@nestjs/cache-manager",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/event-emitter",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/mapped-types",
+            "npm:@nestjs/microservices",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/schedule",
+            "npm:@nestjs/swagger",
+            "npm:@types/bcrypt",
+            "npm:@types/passport-google-oauth20",
+            "npm:bcrypt",
+            "npm:class-transformer",
+            "npm:class-validator",
+            "npm:dotenv@17.2.1",
+            "npm:drizzle-orm",
+            "npm:nodemailer",
+            "npm:passport",
+            "npm:passport-google-oauth20",
+            "npm:passport-jwt",
+            "npm:pg",
+            "npm:reflect-metadata",
+            "npm:rxjs@7.8.2"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/app.controller.ts",
+          "hash": "4552329938751326480",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/app.module.ts",
+          "hash": "18166466280900044338",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/app.service.ts",
+          "hash": "16892833931858030153",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/auth.controller.ts",
+          "hash": "4219344077132569189",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/auth.module.ts",
+          "hash": "18269381413215778130",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/config",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/auth.service.ts",
+          "hash": "10817156662172606",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/jwt",
+            "npm:bcrypt"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/decorators/public.decorator.ts",
+          "hash": "9728809504073147637",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/dto/change-password.dto.ts",
+          "hash": "17223012680405708339",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/dto/confirm-email.dto.ts",
+          "hash": "4060718616431517068",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/dto/login.dto.ts",
+          "hash": "7068881089725978882",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/dto/request-reset-password.dto.ts",
+          "hash": "798327521192716003",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/dto/reset-password.dto.ts",
+          "hash": "6895628095329365417",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/enums/mail-provider.enum.ts",
+          "hash": "15628234497332732951"
+        },
+        {
+          "file": "apps/backend-api/src/auth/guards/jwt-auth.guard.ts",
+          "hash": "8097356423328182666",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/interfaces/mail.interface.ts",
+          "hash": "4618753660477054761"
+        },
+        {
+          "file": "apps/backend-api/src/auth/providers/aws-ses.provider.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend-api/src/auth/providers/nodemailer.provider.ts",
+          "hash": "2185320850090302937",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:nodemailer"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/strategy/google.strategy.ts",
+          "hash": "12922897752972383348",
+          "deps": [
+            "npm:@nestjs/passport",
+            "npm:passport-google-oauth20",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/strategy/jwt.strategy.ts",
+          "hash": "14433758324523769870",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport-jwt",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/auth/templates/email.templates.ts",
+          "hash": "2273163980167217854"
+        },
+        {
+          "file": "apps/backend-api/src/common/entities/base.entity.ts",
+          "hash": "3208947840446536449"
+        },
+        {
+          "file": "apps/backend-api/src/common/repositories/base.repository.interface.ts",
+          "hash": "12913652406546848371"
+        },
+        {
+          "file": "apps/backend-api/src/common/repositories/base.repository.ts",
+          "hash": "4558871082552543171",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/common/repositories/helper.repository.ts",
+          "hash": "9267594122306587432",
+          "deps": [
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/database/database.module.ts",
+          "hash": "6220025401033891554",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:drizzle-orm",
+            "npm:pg"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/0000_careless_mindworm.sql",
+          "hash": "18161729857539880331"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/0001_reflective_shadow_king.sql",
+          "hash": "1710642088490002891"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/0002_loving_fat_cobra.sql",
+          "hash": "9384346062271313321"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/0003_misty_mongoose.sql",
+          "hash": "10516581410088667392"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/0004_black_doctor_strange.sql",
+          "hash": "3643492094888106378"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/0000_snapshot.json",
+          "hash": "9623967699383286336"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/0001_snapshot.json",
+          "hash": "14142704914158987144"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/0002_snapshot.json",
+          "hash": "11609133099726004804"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/0003_snapshot.json",
+          "hash": "8955594090586249365"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/0004_snapshot.json",
+          "hash": "11281395436139775354"
+        },
+        {
+          "file": "apps/backend-api/src/database/migrations/meta/_journal.json",
+          "hash": "4004724524320559631"
+        },
+        {
+          "file": "apps/backend-api/src/database/schema/dev-debug.schema.ts",
+          "hash": "5297826782570434303",
+          "deps": [
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/database/schema/index.ts",
+          "hash": "12760015705424545014"
+        },
+        {
+          "file": "apps/backend-api/src/database/schema/message.schema.ts",
+          "hash": "2887119272869109099",
+          "deps": [
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/database/schema/user.schema.ts",
+          "hash": "16141957421794635264",
+          "deps": [
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/filters/http-exception.filter.ts",
+          "hash": "12928732377999563204",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/mail/mail.module.ts",
+          "hash": "1158193030964826303",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/mail/mail.service.ts",
+          "hash": "32114363482487703",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/mail/providers/aws-ses.provider.ts",
+          "hash": "1985195072286376425",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@aws-sdk/client-ses"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/main.ts",
+          "hash": "17631932121504317613",
+          "deps": [
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/dto/change-password.dto.ts",
+          "hash": "17223012680405708339",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/dto/create-user.dto.ts",
+          "hash": "9010906710225654451",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/dto/login.dto.ts",
+          "hash": "7068881089725978882",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/dto/update-user.dto.ts",
+          "hash": "14564584984300241442",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/mapped-types"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/entities/user.entity.ts",
+          "hash": "3824341963538936952",
+          "deps": [
+            "npm:bcrypt"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/repositories/user.repository.interface.ts",
+          "hash": "645408074670155361"
+        },
+        {
+          "file": "apps/backend-api/src/users/repositories/user.repository.provide.ts",
+          "hash": "4170107545713122594"
+        },
+        {
+          "file": "apps/backend-api/src/users/repositories/user.repository.ts",
+          "hash": "10886919977099379947",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:drizzle-orm"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/users.controller.ts",
+          "hash": "11681584633561557584",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/users.module.ts",
+          "hash": "18197923370773172687",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/src/users/users.service.ts",
+          "hash": "5411298663003062159",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend-api/swagger.json",
+          "hash": "6002471712512786362"
+        },
+        {
+          "file": "apps/backend-api/test/app.e2e-spec.ts",
+          "hash": "15142680097789702029",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/backend-api/test/jest-e2e.json",
+          "hash": "7570273541430074424"
+        },
+        {
+          "file": "apps/backend-api/tsconfig.build.json",
+          "hash": "276845246908739715"
+        },
+        {
+          "file": "apps/backend-api/tsconfig.json",
+          "hash": "1876265833229380624"
         }
       ]
     }

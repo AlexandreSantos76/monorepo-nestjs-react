@@ -1,0 +1,26 @@
+
+> backend-api@0.0.1 start:dev /home/xande/jobs/full-cycle/merlix-project/apps/backend-api
+> nest start --watch
+
+[2J[3J[H[[90m9:34:07 AM[0m] Starting compilation in watch mode...
+
+[[90m9:34:09 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 1090067  - [39m08/18/2025, 9:34:10 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1090067  - [39m08/18/2025, 9:34:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 1090067  - [39m08/18/2025, 9:34:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1090067  - [39m08/18/2025, 9:34:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 1090067  - [39m08/18/2025, 9:34:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1090067  - [39m08/18/2025, 9:34:10 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 1090067  - [39m08/18/2025, 9:34:10 AM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39mTypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/passport-jwt@4.0.1/node_modules/[4mpassport-jwt[24m/lib/strategy.js:45:15)
+    at new StrategyWithMixin (/home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+passport@11.0.5_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2__oqf2q2n3hqb2j3nvbfxmwraxty/node_modules/[4m@nestjs[24m/passport/dist/passport/passport.strategy.js:34:13)
+    at new JwtStrategy [90m(/home/xande/jobs/full-cycle/merlix-project/apps/backend-api/[39msrc/auth/strategy/jwt.strategy.ts:10:9[90m)[39m
+    at Injector.instantiateClass (/home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/injector/injector.js:418:19)
+    at callback (/home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/injector/injector.js:70:45)
+    at async Injector.resolveConstructorParams (/home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/injector/injector.js:170:24)
+    at async Injector.loadInstance (/home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/injector/injector.js:75:13)
+    at async Injector.loadProvider (/home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/injector/injector.js:103:9)
+    at async /home/xande/jobs/full-cycle/merlix-project/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.6_@nestjs+common@11.1.6_class-transformer@0.5.1_class-validator@0.14.2_refl_rleos3qhlmrxezvopmrml2jpqq/node_modules/[4m@nestjs[24m/core/injector/instance-loader.js:56:13
+    at async Promise.all (index 4)
+^[[A^[[A^[[B^[[B^[[B^C
