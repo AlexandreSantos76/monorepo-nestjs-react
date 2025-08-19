@@ -6,32 +6,32 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "14564983482701620883"
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "4760192166004576022"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "5806470718609320119"
       },
       {
         "file": "README.md",
-        "hash": "12526486071163744699"
-      },
-      {
-        "file": "package.json",
-        "hash": "2922832924047642250"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "6962954904573951472"
+        "hash": "824039253150335473"
       },
       {
         "file": "nx.json",
         "hash": "3838246982722539747"
       },
       {
-        "file": ".gitignore",
-        "hash": "10973461197369768158"
+        "file": "package.json",
+        "hash": "2922832924047642250"
       },
       {
-        "file": ".github/instructions/nx.instructions.md",
-        "hash": "4760192166004576022"
+        "file": "pnpm-lock.yaml",
+        "hash": "14564983482701620883"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "6962954904573951472"
       }
     ],
     "projectFileMap": {

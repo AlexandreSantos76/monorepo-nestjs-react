@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx start:dev backend-api",
-    "startTime": "2025-08-18T12:36:55.506Z",
-    "endTime": "2025-08-19T01:01:10.401Z",
+    "command": "nx dev frontend-web",
+    "startTime": "2025-08-19T12:00:30.722Z",
+    "endTime": "2025-08-19T13:05:40.725Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "backend-api:start:dev",
-      "target": "start:dev",
-      "projectName": "backend-api",
-      "hash": "10456916856289946811",
-      "startTime": "2025-08-18T12:36:55.522Z",
-      "endTime": "2025-08-19T01:01:08.993Z",
+      "taskId": "frontend-web:dev",
+      "target": "dev",
+      "projectName": "frontend-web",
+      "hash": "11094528821400628451",
+      "startTime": "2025-08-19T12:00:30.741Z",
+      "endTime": "2025-08-19T13:05:40.678Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1
