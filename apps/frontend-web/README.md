@@ -26,8 +26,8 @@ Siga os passos abaixo para clonar o repositório e colocar o projeto em funciona
 1.  **Clone o repositório:**
 
     ```bash
-    git clone [https://github.com/seu-usuario/seu-monorepo.git](https://github.com/seu-usuario/seu-monorepo.git)
-    cd seu-monorepo
+    git clone [https://github.com/AlexandreSantos76/monorepo-nestjs-react.git](https://github.com/AlexandreSantos76/monorepo-nestjs-react.git)
+    cd monorepo-nestjs-react
     ```
 
 2.  **Instale as dependências:**
