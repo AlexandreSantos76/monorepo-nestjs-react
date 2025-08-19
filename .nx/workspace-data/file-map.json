@@ -6,28 +6,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "14564983482701620883"
+        "file": "pnpm-workspace.yaml",
+        "hash": "6962954904573951472"
       },
       {
         "file": "package.json",
-        "hash": "5865171977308932669"
+        "hash": "2922832924047642250"
+      },
+      {
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "4760192166004576022"
       },
       {
         "file": "nx.json",
         "hash": "3838246982722539747"
       },
       {
-        "file": "pnpm-workspace.yaml",
-        "hash": "6962954904573951472"
+        "file": "pnpm-lock.yaml",
+        "hash": "14564983482701620883"
       },
       {
         "file": "README.md",
         "hash": "12526486071163744699"
-      },
-      {
-        "file": ".github/instructions/nx.instructions.md",
-        "hash": "4760192166004576022"
       },
       {
         "file": ".gitignore",
@@ -529,7 +529,7 @@
         },
         {
           "file": "apps/frontend-web/README.md",
-          "hash": "230519711145761115"
+          "hash": "3006711524648166323"
         },
         {
           "file": "apps/frontend-web/components.json",

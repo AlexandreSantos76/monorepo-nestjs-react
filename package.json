@@ -6,9 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "monorepo",
+    "nx",
+    "react",
+    "typescript",
+    "vite",
+    "pnpm",
+    "drizzle",
+    "postgres",
+    "nestjs"
+  ],
+  "author": "Alexandre Oliveira Santos",
+  "license": "MIT",
   "devDependencies": {
     "@nx/js": "^21.4.0",
     "eslint": "^9.33.0",
