@@ -7,7 +7,11 @@
     "nonProjectFiles": [
       {
         "file": "pnpm-lock.yaml",
-        "hash": "14113834218658402328"
+        "hash": "14564983482701620883"
+      },
+      {
+        "file": "package.json",
+        "hash": "5865171977308932669"
       },
       {
         "file": "nx.json",
@@ -22,119 +26,15 @@
         "hash": "12526486071163744699"
       },
       {
-        "file": ".gitignore",
-        "hash": "10973461197369768158"
-      },
-      {
         "file": ".github/instructions/nx.instructions.md",
         "hash": "4760192166004576022"
       },
       {
-        "file": "package.json",
-        "hash": "5865171977308932669"
+        "file": ".gitignore",
+        "hash": "10973461197369768158"
       }
     ],
     "projectFileMap": {
-      "frontend-web": [
-        {
-          "file": "apps/frontend-web/.gitignore",
-          "hash": "13046175384202504187"
-        },
-        {
-          "file": "apps/frontend-web/README.md",
-          "hash": "230519711145761115"
-        },
-        {
-          "file": "apps/frontend-web/eslint.config.js",
-          "hash": "142212017292357276",
-          "deps": [
-            "npm:@eslint/js",
-            "npm:globals@16.3.0",
-            "npm:eslint-plugin-react-hooks",
-            "npm:eslint-plugin-react-refresh",
-            "npm:typescript-eslint",
-            "npm:eslint"
-          ]
-        },
-        {
-          "file": "apps/frontend-web/index.html",
-          "hash": "4025202329384162906"
-        },
-        {
-          "file": "apps/frontend-web/package.json",
-          "hash": "10918191875013384719",
-          "deps": [
-            "npm:@eslint/js",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:@vitejs/plugin-react",
-            "npm:eslint",
-            "npm:eslint-plugin-react-hooks",
-            "npm:eslint-plugin-react-refresh",
-            "npm:globals@16.3.0",
-            "npm:typescript@5.8.3",
-            "npm:typescript-eslint",
-            "npm:vite",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/frontend-web/public/vite.svg",
-          "hash": "16046085400642193116"
-        },
-        {
-          "file": "apps/frontend-web/src/App.css",
-          "hash": "3739391659270974612"
-        },
-        {
-          "file": "apps/frontend-web/src/App.tsx",
-          "hash": "9561001225065465909",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "apps/frontend-web/src/assets/react.svg",
-          "hash": "16069471864800376455"
-        },
-        {
-          "file": "apps/frontend-web/src/index.css",
-          "hash": "13504153635654440336"
-        },
-        {
-          "file": "apps/frontend-web/src/main.tsx",
-          "hash": "11038211546439381838",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/frontend-web/src/vite-env.d.ts",
-          "hash": "12946363841406869089"
-        },
-        {
-          "file": "apps/frontend-web/tsconfig.app.json",
-          "hash": "17915403376949929233"
-        },
-        {
-          "file": "apps/frontend-web/tsconfig.json",
-          "hash": "2365188958523842680"
-        },
-        {
-          "file": "apps/frontend-web/tsconfig.node.json",
-          "hash": "12526670948656573966"
-        },
-        {
-          "file": "apps/frontend-web/vite.config.ts",
-          "hash": "16225914092815047172",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react"
-          ]
-        }
-      ],
       "backend-api": [
         {
           "file": "apps/backend-api/.env.example",
@@ -326,32 +226,12 @@
           ]
         },
         {
-          "file": "apps/backend-api/src/auth/enums/mail-provider.enum.ts",
-          "hash": "15628234497332732951"
-        },
-        {
           "file": "apps/backend-api/src/auth/guards/jwt-auth.guard.ts",
           "hash": "8097356423328182666",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/passport",
             "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/backend-api/src/auth/interfaces/mail.interface.ts",
-          "hash": "4618753660477054761"
-        },
-        {
-          "file": "apps/backend-api/src/auth/providers/aws-ses.provider.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/backend-api/src/auth/providers/nodemailer.provider.ts",
-          "hash": "2185320850090302937",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:nodemailer"
           ]
         },
         {
@@ -489,6 +369,14 @@
           ]
         },
         {
+          "file": "apps/backend-api/src/mail/enums/mail-provider.enum.ts",
+          "hash": "15628234497332732951"
+        },
+        {
+          "file": "apps/backend-api/src/mail/interfaces/mail.interface.ts",
+          "hash": "4618753660477054761"
+        },
+        {
           "file": "apps/backend-api/src/mail/mail.module.ts",
           "hash": "1158193030964826303",
           "deps": [
@@ -511,8 +399,16 @@
           ]
         },
         {
+          "file": "apps/backend-api/src/mail/providers/nodemailer.provider.ts",
+          "hash": "2185320850090302937",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:nodemailer"
+          ]
+        },
+        {
           "file": "apps/backend-api/src/main.ts",
-          "hash": "17631932121504317613",
+          "hash": "4601714484898640015",
           "deps": [
             "npm:@nestjs/core",
             "npm:@nestjs/swagger",
@@ -620,6 +516,663 @@
         {
           "file": "apps/backend-api/tsconfig.json",
           "hash": "1876265833229380624"
+        }
+      ],
+      "frontend-web": [
+        {
+          "file": "apps/frontend-web/.env.example",
+          "hash": "17895612468241166659"
+        },
+        {
+          "file": "apps/frontend-web/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "apps/frontend-web/README.md",
+          "hash": "230519711145761115"
+        },
+        {
+          "file": "apps/frontend-web/components.json",
+          "hash": "10581306706250207358"
+        },
+        {
+          "file": "apps/frontend-web/eslint.config.js",
+          "hash": "4889635217100675758",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:globals@16.3.0",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:typescript-eslint",
+            "npm:eslint"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "apps/frontend-web/package.json",
+          "hash": "4265336506153747704",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:@tailwindcss/typography",
+            "npm:@types/node@22.17.2",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:@vitejs/plugin-react-swc",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:globals@16.3.0",
+            "npm:lovable-tagger",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript@5.8.3",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:@hookform/resolvers",
+            "npm:@radix-ui/react-accordion",
+            "npm:@radix-ui/react-alert-dialog",
+            "npm:@radix-ui/react-aspect-ratio",
+            "npm:@radix-ui/react-avatar",
+            "npm:@radix-ui/react-checkbox",
+            "npm:@radix-ui/react-collapsible",
+            "npm:@radix-ui/react-context-menu",
+            "npm:@radix-ui/react-dialog",
+            "npm:@radix-ui/react-dropdown-menu",
+            "npm:@radix-ui/react-hover-card",
+            "npm:@radix-ui/react-label",
+            "npm:@radix-ui/react-menubar",
+            "npm:@radix-ui/react-navigation-menu",
+            "npm:@radix-ui/react-popover",
+            "npm:@radix-ui/react-progress",
+            "npm:@radix-ui/react-radio-group",
+            "npm:@radix-ui/react-scroll-area",
+            "npm:@radix-ui/react-select",
+            "npm:@radix-ui/react-separator",
+            "npm:@radix-ui/react-slider",
+            "npm:@radix-ui/react-slot",
+            "npm:@radix-ui/react-switch",
+            "npm:@radix-ui/react-tabs",
+            "npm:@radix-ui/react-toast",
+            "npm:@radix-ui/react-toggle",
+            "npm:@radix-ui/react-toggle-group",
+            "npm:@radix-ui/react-tooltip",
+            "npm:@tanstack/react-query",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:cmdk",
+            "npm:date-fns",
+            "npm:embla-carousel-react",
+            "npm:input-otp",
+            "npm:lucide-react",
+            "npm:next-themes",
+            "npm:react",
+            "npm:react-day-picker",
+            "npm:react-dom",
+            "npm:react-hook-form",
+            "npm:react-resizable-panels",
+            "npm:react-router-dom",
+            "npm:recharts",
+            "npm:sonner",
+            "npm:tailwind-merge",
+            "npm:tailwindcss-animate",
+            "npm:vaul",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/postcss.config.js",
+          "hash": "1121830044826443979"
+        },
+        {
+          "file": "apps/frontend-web/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "apps/frontend-web/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "apps/frontend-web/src/App.tsx",
+          "hash": "7490919093422004238",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "apps/frontend-web/src/components/Header.tsx",
+          "hash": "7556279491732766614",
+          "deps": [
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ProtectedRoute.tsx",
+          "hash": "819523562238036758",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/accordion.tsx",
+          "hash": "3167988994528357415",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-accordion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/alert-dialog.tsx",
+          "hash": "12931732376882220959",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-alert-dialog"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/alert.tsx",
+          "hash": "1861621377426642757",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/aspect-ratio.tsx",
+          "hash": "12340592216594228921",
+          "deps": [
+            "npm:@radix-ui/react-aspect-ratio"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/avatar.tsx",
+          "hash": "2172290189339051182",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-avatar"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/badge.tsx",
+          "hash": "8406134610660828449",
+          "deps": [
+            "npm:react",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/breadcrumb.tsx",
+          "hash": "5977059709950181256",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/button.tsx",
+          "hash": "11257389123344437734",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/calendar.tsx",
+          "hash": "16761397970850291754",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "npm:react-day-picker"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/card.tsx",
+          "hash": "9572552624677261021",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/carousel.tsx",
+          "hash": "16025284428382211109",
+          "deps": [
+            "npm:react",
+            "npm:embla-carousel-react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/chart.tsx",
+          "hash": "3593573621340112929",
+          "deps": [
+            "npm:react",
+            "npm:recharts"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/checkbox.tsx",
+          "hash": "5277313382263280533",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-checkbox",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/collapsible.tsx",
+          "hash": "8040382521055521536",
+          "deps": [
+            "npm:@radix-ui/react-collapsible"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/command.tsx",
+          "hash": "3943851909728919160",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-dialog",
+            "npm:cmdk",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/context-menu.tsx",
+          "hash": "9897002208018036120",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-context-menu",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/dialog.tsx",
+          "hash": "5629480931371809090",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-dialog",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/drawer.tsx",
+          "hash": "506114188505693642",
+          "deps": [
+            "npm:react",
+            "npm:vaul"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/dropdown-menu.tsx",
+          "hash": "171502028778230976",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-dropdown-menu",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/form.tsx",
+          "hash": "15490598094551137363",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-label",
+            "npm:@radix-ui/react-slot",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/hover-card.tsx",
+          "hash": "14584555480307996271",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-hover-card"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/input-otp.tsx",
+          "hash": "14550022367864184989",
+          "deps": [
+            "npm:react",
+            "npm:input-otp",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/input.tsx",
+          "hash": "667422176216627357",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/label.tsx",
+          "hash": "575553755677390382",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-label",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/menubar.tsx",
+          "hash": "3589615094413232561",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-menubar",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/navigation-menu.tsx",
+          "hash": "13877511562904234290",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-navigation-menu",
+            "npm:class-variance-authority",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/pagination.tsx",
+          "hash": "12933609959293049490",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/popover.tsx",
+          "hash": "11274085998591564428",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-popover"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/progress.tsx",
+          "hash": "7572288392203238062",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-progress"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/radio-group.tsx",
+          "hash": "12574634384370595430",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-radio-group",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/resizable.tsx",
+          "hash": "7545385077443522790",
+          "deps": [
+            "npm:lucide-react",
+            "npm:react-resizable-panels"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/scroll-area.tsx",
+          "hash": "7372559361306884482",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-scroll-area"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/select.tsx",
+          "hash": "18172787381250052828",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-select",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/separator.tsx",
+          "hash": "9152929968593344539",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-separator"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/sheet.tsx",
+          "hash": "12694553622966559155",
+          "deps": [
+            "npm:@radix-ui/react-dialog",
+            "npm:class-variance-authority",
+            "npm:lucide-react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/sidebar.tsx",
+          "hash": "17178065947406570189",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/skeleton.tsx",
+          "hash": "7739192301396167804"
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/slider.tsx",
+          "hash": "13517559721624315127",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slider"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/sonner.tsx",
+          "hash": "8069787631781441444",
+          "deps": [
+            "npm:next-themes",
+            "npm:sonner"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/switch.tsx",
+          "hash": "6768244898163120696",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-switch"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/table.tsx",
+          "hash": "12220893068497995597",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/tabs.tsx",
+          "hash": "13475387194805012451",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-tabs"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/textarea.tsx",
+          "hash": "17888994061576480359",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/toast.tsx",
+          "hash": "1326391758004731988",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-toast",
+            "npm:class-variance-authority",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/toaster.tsx",
+          "hash": "16997361785471586676"
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/toggle-group.tsx",
+          "hash": "7273051652050101833",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-toggle-group",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/toggle.tsx",
+          "hash": "11317299348690723909",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-toggle",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/tooltip.tsx",
+          "hash": "13508833649960061832",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-tooltip"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/components/ui/use-toast.ts",
+          "hash": "11206778307900572536"
+        },
+        {
+          "file": "apps/frontend-web/src/context/AuthContext.tsx",
+          "hash": "3571037058302590440",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/hooks/use-mobile.tsx",
+          "hash": "14900138732519213047",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/hooks/use-toast.ts",
+          "hash": "15940043507680500648",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/index.css",
+          "hash": "14106645756612548624"
+        },
+        {
+          "file": "apps/frontend-web/src/lib/auth.ts",
+          "hash": "13798856725205365306"
+        },
+        {
+          "file": "apps/frontend-web/src/lib/config.ts",
+          "hash": "9228015597257101475"
+        },
+        {
+          "file": "apps/frontend-web/src/lib/seo.ts",
+          "hash": "10325074315663362009"
+        },
+        {
+          "file": "apps/frontend-web/src/lib/utils.ts",
+          "hash": "6483145186850064023",
+          "deps": [
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/main.tsx",
+          "hash": "7907849378156194106",
+          "deps": [
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/pages/ForgotPassword.tsx",
+          "hash": "7478594707852472010",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/pages/Index.tsx",
+          "hash": "17578774063875376371"
+        },
+        {
+          "file": "apps/frontend-web/src/pages/Login.tsx",
+          "hash": "17225216963973320349",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend-web/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/frontend-web/tailwind.config.ts",
+          "hash": "7802615945710042315",
+          "deps": [
+            "npm:tailwindcss",
+            [
+              "npm:tailwindcss-animate",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/frontend-web/tsconfig.app.json",
+          "hash": "17690513294435998861"
+        },
+        {
+          "file": "apps/frontend-web/tsconfig.json",
+          "hash": "2365188958523842680"
+        },
+        {
+          "file": "apps/frontend-web/tsconfig.node.json",
+          "hash": "5853912015280527852"
+        },
+        {
+          "file": "apps/frontend-web/vite.config.ts",
+          "hash": "14691277892248332142",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react-swc"
+          ]
         }
       ]
     }

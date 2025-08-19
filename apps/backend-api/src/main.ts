@@ -22,6 +22,8 @@ async function bootstrap() {
 
   const reflector = app.get(Reflector);
   app.useGlobalGuards(new JwtAuthGuard(reflector));
+
+  app.enableCors();
   await app.listen(3000);
   logger.log(`Application listening on port 3000`);
 }
